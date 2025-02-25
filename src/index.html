@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Drag and Drop Form Builder</h1>
+    <div class="builder-container">
+      <div class="toolbox">
+        <h2>Form Elements</h2>
+        <div class="form-element" draggable="true" data-type="text">
+          Text Input
+        </div>
+        <div class="form-element" draggable="true" data-type="checkbox">
+          Checkbox
+        </div>
+        <div class="form-element" draggable="true" data-type="button">
+          Button
+        </div>
+      </div>
+      <div class="form-area" id="formArea">
+        <h2>Your Form</h2>
+      </div>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
